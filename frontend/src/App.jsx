@@ -1,14 +1,12 @@
-import Button from 'react-bootstrap/Button';
-import Header from './components/Header';
+import Header from "./components/Header";
 
 const App = () => {
   return (
     <>
-      <Header/>
-      <h1>AeroMessage</h1>
-      <Button variant="primary">Primary</Button>
+      <Header />
+      <h1>App</h1>
     </>
-  )
-}
+  );
+};
 
 export default App;
